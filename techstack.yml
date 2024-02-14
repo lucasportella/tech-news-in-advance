@@ -1,0 +1,332 @@
+repo_name: lucasportella/tech-news-in-advance
+report_id: 0ba340fa9437d402e448d36ee79e7cc2
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-14T15:13:41+00:00'
+requested_by: lucasportella
+provider: github
+branch: master
+detected_tools_count: 23
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 5.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 19.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: '5.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 3.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 1.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: mccabe
+  description: McCabe checker, plugin for flake8
+  package_url: https://pypi.org/project/mccabe
+  version: 0.6.1
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20323/default_cafc15de82628e6c121e1ea9ce941c1410268b49.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: more-itertools
+  description: More routines for operating on iterables, beyond itertools
+  package_url: https://pypi.org/project/more-itertools
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19947/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '20.4'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: pluggy
+  description: Plugin and hook calling mechanisms for python
+  package_url: https://pypi.org/project/pluggy
+  version: 0.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20041/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: py
+  description: Library with cross-python path
+  package_url: https://pypi.org/project/py
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19962/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+  vulnerabilities:
+  - name: 'ReDoS in py library when used with subversion '
+    cve_id: CVE-2022-42969
+    cve_url: https://github.com/advisories/GHSA-w596-4wvx-j9j6
+    detected_date: Oct 18
+    severity: high
+    first_patched: 
+  - name: py vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2020-29651
+    cve_url: https://github.com/advisories/GHSA-hj5v-574p-mj7c
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.0
+- name: pycodestyle
+  description: Python style guide checker
+  package_url: https://pypi.org/project/pycodestyle
+  version: 2.6.0
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20145/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: pyflakes
+  description: Passive checker of Python programs
+  package_url: https://pypi.org/project/pyflakes
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20155/default_00b4278983e5385b6d5b93c4ffc4ef51d53270e9.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  version: 3.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 2.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: wcwidth
+  description: Measures number of Terminal column cells of wide-character codes
+  package_url: https://pypi.org/project/wcwidth
+  version: 0.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/lucasportella/tech-news-in-advance/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: lucas
+  last_updated_on: 2021-12-02 15:08:54.000000000 Z
